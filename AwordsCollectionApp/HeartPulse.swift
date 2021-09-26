@@ -44,8 +44,7 @@ struct HeartPulse: View {
                     )
                 )
             }
-//            } .shadow(color: .black, radius: 0.4, x: 4, y: 5)
-            .frame(width: width, height: height)
+            .frame(width: width, height: height).offset(x: -10, y: -5)
         }
     }
 
